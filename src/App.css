@@ -2,37 +2,7 @@ body {
     margin: 0;
     padding: 0;
   }
-  .NavBarItems {
-    background-color: black;
-    margin: 0;
-    padding: 0;
-    height: 120px;
-  }
   
-  .NavBarItems h1 {
-      height: 30%;
-    color: white;
-    padding: 10px;
-    font-size: 25px;
-    margin: 0;
-  }
-  
- ul {
-      margin: 0;
-      height: 60%;
-    width: 80%;
-    float: left;
-    list-style: none;
-    margin: 0px;
-    padding: 0;
-  }
-  li {
-    display: inline;
-    list-style: none;
-    font-size: 18px;
-    padding: 10px;
-    line-height: 80px;
-  }
-
-  
+spam img {height: 100px;}
+.carrito{color: white;font-size: large;}
   

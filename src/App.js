@@ -1,18 +1,34 @@
-import NavBar from "./components/NavBar"
+import NavBar from "./Components/NavBar";
 import './App.css';
-import ItemListContainer from "./components/ItemListContainer"
+import { Fragment } from 'react';
+import ItemlistContainer from './Components/ItemListContainer';
+import Footer from './Components/Footer';
+import {BrowserRouter, Routes, Route} from "react-router-dom"
+import ItemDetailContainer from './Components/ItemDetailContainer';
+
+
+
 
 function App () {
   return (
-    <div>
-    <div className="App">
+    <>
+    <BrowserRouter>
       <NavBar/>
-    </div>
-    <div className="Contenedor">
-    <ItemListContainer/>
-    </div>
-    </div>
+      <Routes>
+      <Route path="/" element={<ItemlistContainer/>} />
+      <Route path="/categoria/:categoria" element={<ItemlistContainer/>} />
+      <Route path="/:categoria/:libroID" element={<ItemDetailContainer/>} />
+
+      
+      </Routes>
+
+
+    </BrowserRouter>
+      <Footer />
+
+    </>
   );
 }
-
 export default App;
+
+

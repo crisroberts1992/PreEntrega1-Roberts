@@ -1,0 +1,75 @@
+[
+    {
+        "id": "1",
+        "stock": "10",
+        "nombre": " Norton",
+        "tipo": "Malbec",
+        "valor": "$900",
+        "img":"/IMG/norton.jpg"
+       
+    },
+    {
+        "id": "2",
+        "stock": "8",
+        "nombre": "Benjamin",
+        "tipo": "Malbec",
+        "valor": "$1.150",
+        "img":"/IMG/benjamin.jpg"
+       
+    },
+    {
+        "id": "3",
+        "stock": "12",
+        "nombre": " Catena",
+        "tipo": "Merlot",
+        "valor": "$1.800",
+        "img":"/IMG/CATENA.png"
+       
+    },
+    {
+        "id": "4",
+        "stock": "5",
+        "nombre": " Fond de Cave",
+        "tipo": "Cabernet",
+        "valor": "$1.200",
+        "img":"/IMG/FOND DE.jpg"
+       
+    },
+    {
+        "id": "5",
+        "stock": "11",
+        "nombre": "Luigi Bosca",
+        "tipo": "Malbec",
+        "valor": "$2.200",
+        "img":"/IMG/luigi.png"
+       
+    },
+    {
+        "id": "6",
+        "stock": "10",
+        "nombre": " Navarro Correa",
+        "tipo": "Merlot",
+        "valor": "$1.300",
+        "img":"/IMG/NAVARRO CO.jpg"
+       
+    },
+    {
+        "id": "7",
+        "stock": "7",
+        "nombre": " Trumpeter",
+        "tipo": "Merlot",
+        "valor": "$1.900",
+        "img":"/IMG/trumpeter.jpg"
+       
+    },
+    {
+        "id": "8",
+        "stock": "4",
+        "nombre": " Rutini",
+        "tipo": "Malbec",
+        "valor": "$2.300",
+        "img":"/IMG/RUTINI.jpg"
+       
+    }
+       
+]

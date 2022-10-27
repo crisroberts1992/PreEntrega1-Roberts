@@ -1,6 +1,6 @@
 const CartWidget = ()=> {
     return (
-        <span>Imag.Carrito</span>
+        <i className="bi bi-cart3"></i>
     )
 }
 
