@@ -6,7 +6,7 @@ import Spinner from "./Spinner";
 
 
 function ItemDetailContainer() {
-    const {libroID} = useParams();
+    const {vinoID} = useParams();
     const [cartas, setCartas] = useState(<Spinner/>);
   const [loading, isLoading] = useState(true)
 
@@ -36,7 +36,7 @@ function ItemDetailContainer() {
     
         <div className="md:flex justify-start ml-10 h-[100vh] ">   
         {loading ? cartas : cartas
-          .filter((libro) => libro.id.includes(libroID))
+          .filter((vino) => vino.id.includes(vinoID))
           .map((el)=>(
 
             <ItemDetail 

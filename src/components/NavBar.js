@@ -13,25 +13,14 @@ function NavBar () {
           <Navbar.Brand href="#home">TODO-VINO</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Nosotros</Nav.Link>
-            <Nav.Link href="#pricing">Productos</Nav.Link>
-            <Nav.Link href="#pricing">Contacto</Nav.Link>
-            <Nav.Link href="#pricing"><CartWidget/></Nav.Link>
+            <Nav.Link href="#nosotros">Nosotros</Nav.Link>
+            <Nav.Link href="#productos">Productos</Nav.Link>
+            <Nav.Link href="#contacto">Contacto</Nav.Link>
+            <Nav.Link href="#carrito"><CartWidget/></Nav.Link>
           </Nav>
         </Container>
       </Navbar>
-       /* <nav className="NavBarItems">
-            <h1 className="NavTitulo">Todo-Vino</h1>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Preguntas</a></li>
-                <li><a href="#"> <CartWidget/> </a></li>
-            </ul>
-            
-        </nav> */
+      
     )
 }
 

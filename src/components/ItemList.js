@@ -41,7 +41,7 @@ export default function ItemList(){
         <div className="flex flex-wrap justify-start">
           {!loading ? cartas 
           : tipo ? cartas
-          .filter((libro) => libro.tipo === tipo)
+          .filter((vino) => vino.tipo === tipo)
           .map((el)=>(
 
             <Item 
